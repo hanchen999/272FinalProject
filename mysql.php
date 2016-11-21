@@ -12,7 +12,7 @@ $sql = "CREATE TABLE market_order( ".
        "id INT NOT NULL AUTO_INCREMENT, ".
        "product_id VARCHAR(255) NOT NULL, ".
        "username VARCHAR(255) NOT NULL, ".
-       "cost VARCHAR(255) NOT NULL, ".
+       "cost FLOAT NOT NULL, ".
        "PRIMARY KEY ( id )); ";
 mysql_select_db( 'cmpe272FinalProject' );
 $retval = mysql_query( $sql, $conn );
@@ -36,7 +36,7 @@ echo "Table Company created successfully\n";
 $sql = "CREATE TABLE market_product( ".
        "id INT NOT NULL AUTO_INCREMENT, ".
        "product_id VARCHAR(100) NOT NULL, ".
-       "price VARCHAR(255) NOT NULL, ".
+       "price FLOAT NOT NULL, ".
        "picture VARCHAR(255) NOT NULL, ".
        "url VARCHAR(255) NOT NULL, ".
        "visited INT NOT NULL,".
