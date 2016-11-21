@@ -7,7 +7,7 @@
  while($row = mysql_fetch_assoc($result)){
  	$product_ids = $row['product_ids'];
  	$product_id_list = "";
- 	for ($product_ids as $product_id) {
+ 	foreach ($product_ids as $product_id) {
         if (strlen($product_id_list) == 0) {
         	$product_id_list = $product_id_list . ($product_id);
         } else {
