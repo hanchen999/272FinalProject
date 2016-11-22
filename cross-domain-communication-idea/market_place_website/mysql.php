@@ -53,6 +53,7 @@ $sql = "CREATE TABLE market_user( ".
        "username VARCHAR(50) NOT NULL, ".
        "password VARCHAR(50) NOT NULL, ".
        "email VARCHAR(255) NOT NULL, ".
+       "phone VARCHAR(255) NOT NULL, ".
        "PRIMARY KEY ( id )); ";
 mysql_select_db( 'cmpe272FinalProject' );
 $retval = mysql_query( $sql, $conn );
