@@ -6,6 +6,8 @@ class communication
 		require_once('database.php');
         require_once('order.php');
         require_once('product.php');
+        require_once('user.php');
+
 	}
 
 	pubic function showOrderHistory($username) {
@@ -86,21 +88,40 @@ class communication
         return $orders[0];
 	}
 	
-	public function setUser($name,$email,$phone){
+	public function CreateUser($username, $password, $email, $phone){
 		//step1, save user to market-place database
 		//mysqlxxx
-		
+		var $user = NULL;
+
+		$result = mysqli_query($connect,"SELECT * FROM cmpe272FinalProject.market_user WHERE username = '$username'");
+		if (mysqli_num_rows($result) > 0) {
+			return $user;
+		}
+		$result = mysqli_query($connect,"INSERT INTO cmpe272FinalProject.market_user(username,password,email,phone)
+				VALUES('$username','$password','$email','$phone')");
 		//step2, prepare the $data;
 		$data = array(
 			"name"	=> $name,
 			"email"	=> $email,
+			"password" => $password,
 			"phone"	=> $phone
 		);
+
+		$user = new user($username, $password, $email, $phone);
 		
 		//step3, tell this new user to all websites
 		for($i=1;$i<=6;$i++){
 			$this->sendRequestToIndividualWebsite($i,"setUser",$data)
 		}
+		return $user;
+	}
+
+	public function Login($username, $password){
+		$result = mysqli_query($connect,"SELECT * FROM cmpe272FinalProject.market_user WHERE username = '$username' AND password = '$password'");
+		if (mysqli_num_rows($result) > 0) {
+			return 'success';
+		}
+		return 'No Match';
 	}
 	
 	//this function is the only curl function, which will be reused in all cross-domain communication.
