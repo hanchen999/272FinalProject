@@ -1,8 +1,6 @@
 <?php
-$dbhost = 'localhost:3036';
-$dbuser = 'root';
-$dbpass = '';
-$connect = mysql_connect($dbhost, $dbuser, $dbpass);
+require_once('database_config.php')
+$connect = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname, $portnumber);
 if(!$connect)
 {
 		echo 'Failed to connect';
