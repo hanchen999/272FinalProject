@@ -10,7 +10,7 @@ if(! $conn )
 echo 'Connected successfully<br />';
 $sql = "CREATE TABLE market_order( ".
        "id INT NOT NULL AUTO_INCREMENT, ".
-       "product_id VARCHAR(255) NOT NULL, ".
+       "product_ids VARCHAR(255) NOT NULL, ".
        "username VARCHAR(255) NOT NULL, ".
        "cost FLOAT NOT NULL, ".
        "PRIMARY KEY ( id )); ";
