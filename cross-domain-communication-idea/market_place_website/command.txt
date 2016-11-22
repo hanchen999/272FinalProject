@@ -1,0 +1,5 @@
+insert into cmpe272FinalProject.market_cart (username, product_id) values ('hehe', '00001');
+insert into cmpe272FinalProject.market_cart (username, product_id) values ('hehe', '00002');
+insert into cmpe272FinalProject.market_product (product_id,price,picture,url,visited) values ('00001', 20, '', '', 2);
+insert into cmpe272FinalProject.market_product (product_id,price,picture,url,visited) values ('00002', 20, '', '', 2);
+
