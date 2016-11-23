@@ -4,10 +4,11 @@ class communication
 {
 	protected $connect;
 	 function __construct() { 
-	 	require('database_config.php');
-	 	require('order.php');
-	 	require('product.php');
-	 	require('user.php');
+	 	require_once('database_config.php');
+	 	require_once('order.php');
+	 	require_once('product.php');
+	 	require_once('user.php');
+	 	require_once('cart.php');
 	 	$this->connect = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 	}
 
@@ -19,7 +20,25 @@ class communication
  	     $price = $row['cost'];
  	     $orders[] = new order($username, $product_ids, $price);
  	   }
- 	    echo json_encode($orders);
+ 	    return $orders;
+	}
+
+	function showCart($username) {
+		$result = mysqli_query($this->connect, "SELECT * FROM cmpe272FinalProject.market_cart WHERE username = '$username'");
+		$product_ids = array();
+		while($row = mysqli_fetch_assoc($result)){
+			$product_ids[] = $row['product_id'];
+		}
+		$cart = new cart($username, $product_ids);
+		return $cart;
+	}
+
+	function addToCart($username, $product_id) {
+		$result = mysqli_query($this->connect, "SELECT * From cmpe272FinalProject.market_cart a WHERE a.product_id = '$product_id' and a.username = '$username'");
+		if (mysqli_num_rows($result) == 0) {
+			mysqli_query($this->connect,"INSERT INTO cmpe272FinalProject.market_cart(username,product_id)
+				VALUES('$username','$product_id')");
+		}
 	}
 
 	 function showProducts() {
@@ -36,7 +55,7 @@ class communication
         $temp->comment = $comment;
         $products[] = $temp;
       }
-      echo json_encode($products);
+      return $products;
 	}
 	
 	 function setOrder($username){
@@ -98,7 +117,7 @@ class communication
 		//$this->sendRequestToIndividualWebsite($i + 1,"setOrder",$data)
         	}
         }
-        echo json_encode($orders[0]);
+        return $orders[0];
 	}
 	
 	 function CreateUser($username, $password, $email, $phone){

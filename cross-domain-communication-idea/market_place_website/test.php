@@ -5,15 +5,18 @@
 	//$type = $parameter["type"];
 	//$data = $parameter["data"];
 	$communication = new communication();
-	$products = $communication->showProducts();
-	echo "\n";
-	echo "\n";
-	$order = $communication->setOrder('hehe');
-	echo "\n";
-	echo "\n";
-	$orders = $communication->showOrderHistory('hehe');
-    echo "\n";
-    echo "\n";
+	//$products = $communication->showProducts();
+	//echo "\n";
+	//echo "\n";
+	//$order = $communication->setOrder('hehe');
+	//echo "\n";
+	//echo "\n";
+	//$orders = $communication->showOrderHistory('hehe');
+    //echo "\n";
+    //echo "\n";
+    $communication->addToCart('hehe', '10002');
+    $communication->addToCart('hehe', '10002');
+    echo json_encode($communication->showCart('hehe'));
 	//if($type=="getProducts"){
 	//	$op->getProducts();
 	//} else if($type=="setUser"){
