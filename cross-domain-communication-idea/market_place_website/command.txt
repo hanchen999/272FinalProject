@@ -1,5 +1,12 @@
 insert into cmpe272FinalProject.market_cart (username, product_id) values ('hehe', '00001');
 insert into cmpe272FinalProject.market_cart (username, product_id) values ('hehe', '00002');
+insert into cmpe272FinalProject.market_cart (username, product_id) values ('hehe', '10002');
 insert into cmpe272FinalProject.market_product (product_id,price,picture,url,visited) values ('00001', 20, '', '', 2);
 insert into cmpe272FinalProject.market_product (product_id,price,picture,url,visited) values ('00002', 20, '', '', 2);
+insert into cmpe272FinalProject.market_product (product_id,price,picture,url,visited) values ('10002', 60, '', '', 2);
+insert into cmpe272FinalProject.market_rate (username,product_id,rate,comment) values ('hehe', '00001', 2, '');
+insert into cmpe272FinalProject.market_rate (username,product_id,rate,comment) values ('hehe', '00002', 3, '');
+insert into cmpe272FinalProject.market_rate (username,product_id,comment) values ('hehe', '00002', '');
+insert into cmpe272FinalProject.market_rate (username,product_id,rate,comment) values ('hehe', '10002', 4,'');
+
 

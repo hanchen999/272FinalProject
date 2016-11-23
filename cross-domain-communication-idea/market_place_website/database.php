@@ -5,4 +5,7 @@ if(!$connect)
 {
 		echo 'Failed to connect';
 }
+else {
+	echo 'connected';
+}
 ?>
