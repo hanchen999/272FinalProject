@@ -12,7 +12,7 @@ $sql = "CREATE TABLE market_order( ".
        "id INT NOT NULL AUTO_INCREMENT, ".
        "product_ids VARCHAR(255) NOT NULL, ".
        "username VARCHAR(255) NOT NULL, ".
-       "quantity INT NOT NULL, ".
+       "quantity VARCHAR(255) NOT NULL, ".
        "cost FLOAT NOT NULL, ".
        "PRIMARY KEY ( id )); ";
 mysql_select_db( 'cmpe272FinalProject' );
