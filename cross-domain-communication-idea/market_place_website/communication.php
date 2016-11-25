@@ -46,9 +46,10 @@ class communication
 		}
 	}
 
-	 function showProducts() {
+	 function showProducts($product_id) {
+	 	$products = array();
+	 	if ($product_id = null) {
 		$result = mysqli_query($this->connect, "SELECT a.product_id as product_id, a.price as price, a.picture as picture, a.visited as visited, AVG(b.rate) as rate FROM cmpe272FinalProject.market_product a LEFT JOIN cmpe272FinalProject.market_rate b ON a.product_id = b.product_id AND b.rate IS NOT NULL GROUP BY a.product_id, a.picture, a.visited, a.price");
-		$products = array();
 		 while($row = mysqli_fetch_assoc($result)){
         $temp = new product($row['product_id'], $row['price'], $row['visited'], $row['picture'], $row['visited'], 'null');
         $product_id = $row['product_id'];
@@ -60,7 +61,21 @@ class communication
         $temp->comment = $comment;
         $products[] = $temp;
       }
-      return $products;
+    } else {
+    	$result = mysqli_query($this->connect, "SELECT a.product_id as product_id, a.price as price, a.picture as picture, a.visited as visited, AVG(b.rate) as rate FROM cmpe272FinalProject.market_product a LEFT JOIN cmpe272FinalProject.market_rate b ON a.product_id = b.product_id AND b.rate IS NOT NULL AND a.product_id = '$product_id' GROUP BY a.product_id, a.picture, a.visited, a.price");
+    	$row = mysqli_fetch_assoc($result);
+    	$temp = new product($row['product_id'], $row['price'], $row['visited'], $row['picture'], $row['visited'], 'null');
+        $product_id = $row['product_id'];
+        $comments = mysqli_query($this->connect, "SELECT b.comment as comment From cmpe272FinalProject.market_rate b where b.product_id = '$product_id' and b.comment IS NOT NULL ORDER BY b.id DESC LIMIT 3");
+        $comment = array();
+        while ($records = mysqli_fetch_assoc($comments)) {
+           $comment[] = $records['comment'];
+        }
+        $temp->comment = $comment;
+        $products[] = $temp;
+
+    }
+        return $products;
 	}
 	
 	 function setOrder($username){
@@ -117,12 +132,22 @@ class communication
 
 		        echo $data;
 		        echo "\n";
-		
 		//step3, tell this new user to the individual website
 		//$this->sendRequestToIndividualWebsite($i + 1,"setOrder",$data)
         	}
         }
         return $orders[0];
+	}
+
+	public function setRate($data){
+		$product_id = $data["product_id"];
+		$username = $data["username"];
+		$rate = $data["rate"];
+		$comment = $data["comment"];
+		
+		$SQL = "Insert into cmpe272FinalProject.market_rate(username,product_id,rate,comment)
+				VALUES('$username','$product_id',$rate,'$comment')";
+		mysqli_query($this->conn, $SQL);
 	}
 	
 	 function CreateUser($username, $password, $email, $phone){
@@ -149,6 +174,12 @@ class communication
 	//		$this->sendRequestToIndividualWebsite($i,"setUser",$data)
 	//	}
 		echo json_encode($user);
+	}
+
+	public function setVisit($product_id){
+		$product_id = $data["product_id"];
+		$SQL = "UPDATE market_product SET visited = visited + 1 WHERE product_id='$product_id'";
+		mysqli_query($this->conn, $SQL);
 	}
 
 	 function Login($username, $password){

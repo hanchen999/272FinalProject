@@ -39,7 +39,6 @@ $sql = "CREATE TABLE market_product( ".
        "product_id VARCHAR(100) NOT NULL, ".
        "price FLOAT NOT NULL, ".
        "picture VARCHAR(255) NOT NULL, ".
-       "url VARCHAR(255) NOT NULL, ".
        "visited INT NOT NULL,".
        "PRIMARY KEY ( id )); ";
 mysql_select_db( 'cmpe272FinalProject' );
