@@ -12,6 +12,7 @@ $sql = "CREATE TABLE market_order( ".
        "id INT NOT NULL AUTO_INCREMENT, ".
        "product_ids VARCHAR(255) NOT NULL, ".
        "username VARCHAR(255) NOT NULL, ".
+       "quantity INT NOT NULL, ".
        "cost FLOAT NOT NULL, ".
        "PRIMARY KEY ( id )); ";
 mysql_select_db( 'cmpe272FinalProject' );
@@ -80,6 +81,7 @@ $sql = "CREATE TABLE market_cart( ".
        "id INT NOT NULL AUTO_INCREMENT, ".
        "username VARCHAR(50) NOT NULL, ".
        "product_id VARCHAR(100) NOT NULL, ".
+       "quantity INT NOT NULL, ".
        "PRIMARY KEY ( id )); ";
 mysql_select_db( 'cmpe272FinalProject' );
 $retval = mysql_query( $sql, $conn );

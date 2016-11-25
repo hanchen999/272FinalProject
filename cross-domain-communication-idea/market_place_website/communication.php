@@ -18,7 +18,8 @@ class communication
 		while($row = mysqli_fetch_assoc($result)){
  	     $product_ids = $row['product_ids'];
  	     $price = $row['cost'];
- 	     $orders[] = new order($username, $product_ids, $price);
+ 	     $quantity = $row['quantity'];
+ 	     $orders[] = new order($username, $product_ids, $price, $quantity);
  	   }
  	    return $orders;
 	}
@@ -26,26 +27,30 @@ class communication
 	function showCart($username) {
 		$result = mysqli_query($this->connect, "SELECT * FROM cmpe272FinalProject.market_cart WHERE username = '$username'");
 		$product_ids = array();
+		$quantity = array();
 		while($row = mysqli_fetch_assoc($result)){
 			$product_ids[] = $row['product_id'];
+			$quantity[] = $row['quantity'];
 		}
-		$cart = new cart($username, $product_ids);
+		$cart = new cart($username, $product_ids, $quantity);
 		return $cart;
 	}
 
 	function addToCart($username, $product_id) {
 		$result = mysqli_query($this->connect, "SELECT * From cmpe272FinalProject.market_cart a WHERE a.product_id = '$product_id' and a.username = '$username'");
 		if (mysqli_num_rows($result) == 0) {
-			mysqli_query($this->connect,"INSERT INTO cmpe272FinalProject.market_cart(username,product_id)
-				VALUES('$username','$product_id')");
+			mysqli_query($this->connect,"INSERT INTO cmpe272FinalProject.market_cart(username,product_id,quantity)
+				VALUES('$username','$product_id',1)");
+		} else {
+			mysqli_query($this->connect,"UPDATE cmpe272FinalProject.market_cart SET quantity = quantity + 1 WHERE product_id='$product_id' AND username = '$username'");
 		}
 	}
 
 	 function showProducts() {
-		$result = mysqli_query($this->connect, "SELECT a.product_id as product_id, a.price as price, a.picture as picture, a.url as url, a.visited as visited, AVG(b.rate) as rate FROM cmpe272FinalProject.market_product a LEFT JOIN cmpe272FinalProject.market_rate b ON a.product_id = b.product_id AND b.rate IS NOT NULL GROUP BY a.product_id, a.picture, a.url, a.visited, a.price");
+		$result = mysqli_query($this->connect, "SELECT a.product_id as product_id, a.price as price, a.picture as picture, a.visited as visited, AVG(b.rate) as rate FROM cmpe272FinalProject.market_product a LEFT JOIN cmpe272FinalProject.market_rate b ON a.product_id = b.product_id AND b.rate IS NOT NULL GROUP BY a.product_id, a.picture, a.visited, a.price");
 		$products = array();
 		 while($row = mysqli_fetch_assoc($result)){
-        $temp = new product($row['product_id'], $row['price'], $row['visited'], $row['url'], $row['picture'], $row['visited'], 'null');
+        $temp = new product($row['product_id'], $row['price'], $row['visited'], $row['picture'], $row['visited'], 'null');
         $product_id = $row['product_id'];
         $comments = mysqli_query($this->connect, "SELECT b.comment as comment From cmpe272FinalProject.market_rate b where b.product_id = '$product_id' and b.comment IS NOT NULL ORDER BY b.id DESC LIMIT 3");
         $comment = array();
@@ -59,14 +64,15 @@ class communication
 	}
 	
 	 function setOrder($username){
-        $result = mysqli_query($this->connect, "SELECT GROUP_CONCAT(a.product_id) as product_ids, SUM(b.price) as price FROM cmpe272FinalProject.market_cart a LEFT JOIN cmpe272FinalProject.market_product b ON a.product_id = b.product_id AND a.username = '$username' GROUP BY a.username");
+        $result = mysqli_query($this->connect, "SELECT GROUP_CONCAT(a.product_id) as product_ids, GROUP_CONCAT(a.quantity) as quantity, SUM(b.price * a.quantity) as price FROM cmpe272FinalProject.market_cart a LEFT JOIN cmpe272FinalProject.market_product b ON a.product_id = b.product_id AND a.username = '$username' GROUP BY a.username");
        $orders = array();
        while($row = mysqli_fetch_assoc($result)){
  	     $product_ids = $row['product_ids'];
  	     $price = $row['price'];
- 	     $flag = mysqli_query($this->connect, "INSERT INTO cmpe272FinalProject.market_order(username,product_ids,cost)
-				VALUES('$username','$product_ids','$price')");
- 	    $orders[] = new order($username, $product_ids, $price);
+ 	     $quantity = $row['quantity'];
+ 	     $flag = mysqli_query($this->connect, "INSERT INTO cmpe272FinalProject.market_order(username,product_ids,quantity,cost)
+				VALUES('$username','$product_ids','$quantity',$price')");
+ 	    $orders[] = new order($username, $product_ids, $price, $quantity);
  	    if ($flag) {
  	     mysqli_query($this->connect, "DELETE FROM cmpe272FinalProject.market_cart  WHERE username = '$username'");
            }
@@ -75,43 +81,42 @@ class communication
         $sent_order=array(array(), array(), array(), array(), array(), array());
 
         $product_ids = explode(",", $orders[0]->product_ids);
+        $quantity_list = explode(",", $orders[0]->quantity);
+        $count = 0;
 
         foreach($product_ids as $product_id) {
         	$number = substr($product_id, 0, 1);
         	$number = intval($number);
-        	$sent_order[$number][] = $product_id;
+        	$sent_order[$number][$product_id] = $quantity_list[$count++]);
         }
 
         echo json_encode($sent_order);
         echo "\n";
-        for ($i = 0; $i < 5; ++$i) {
+        for ($i = 0; $i < 6; ++$i) {
         	if (empty($sent_order[$i])) {
         		continue;
         	}
         	else {
-        		$list = null;
-        		if (sizeof($sent_order[$i]) > 1) {
-        		   $list = implode(',', $sent_order[$i]);
-        		echo $list;
-        		echo "\n";
-        		echo "SELECT SUM(b.price) as price FROM cmpe272FinalProject.market_product b WHERE b.product_id in ($list)";
-        		$result = mysqli_query($this->connect, "SELECT SUM(b.price) as price FROM cmpe272FinalProject.market_product b WHERE b.product_id in ($list)");
-        		$list = $sent_order[$i];
-        	    } else {
-        	    	$list = $sent_order[$i][0];
-        	    	echo $list;
-        		    echo "\n";
-        		    $result = mysqli_query($this->connect, "SELECT b.price as price FROM cmpe272FinalProject.market_product b WHERE b.product_id = '$list'");
-        	    }
-        		$row = mysqli_fetch_assoc($result);
-        		$price = $row['price'];
+        		 $quantity = array();
+        		 $product_ids = array();
+        		 $price = 0;
+        		 foreach(sent_order[$i] as $key => $value) {
+        		 	$product_ids[] = $key;
+        		 	$quantity[] = $value;
+        		 	$result = mysqli_query($this->connect, "SELECT price FROM cmpe272FinalProject.market_product WHERE product_id = '$key'");
+        		 	$row = mysqli_fetch_assoc($result);
+        		 	$price += $row['price'] * $value;
+        		 }
         		//step2, prepare the $data;
 		        $data = array(
 			    "username"	=> $username,
-			    "product_ids" => $list,
+			    "product_ids" => implode(",", $product_ids),
+			    "quantity" => implode(",", $quantity),
 			    "price"	=> $price
 		       );
-		        echo json_encode($data);
+
+		        echo $data;
+		        echo "\n";
 		
 		//step3, tell this new user to the individual website
 		//$this->sendRequestToIndividualWebsite($i + 1,"setOrder",$data)
