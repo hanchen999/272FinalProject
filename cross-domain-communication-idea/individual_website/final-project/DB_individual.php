@@ -2,5 +2,5 @@
 	$dbhost = "localhost";
 	$dbuser = "shuoranz_db";
 	$dbpass = "shuoran2468";
-	$dbname = "cmpe272FinalProject";
+	$dbname = "shuoranz_cmpe272FinalProject";
 ?>
