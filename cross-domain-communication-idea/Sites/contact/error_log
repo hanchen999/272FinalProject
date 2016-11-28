@@ -1,0 +1,66 @@
+[01-Oct-2016 12:25:22] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:25:22] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:25:22] PHP Warning:  file(contact.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 12
+[01-Oct-2016 12:25:22] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 12
+[01-Oct-2016 12:27:18] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:27:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:27:18] PHP Warning:  file(contact.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 12
+[01-Oct-2016 12:27:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 12
+[01-Oct-2016 12:27:24] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:27:24] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:27:24] PHP Warning:  file(contact.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 12
+[01-Oct-2016 12:27:24] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 12
+[01-Oct-2016 12:28:54] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:28:54] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:28:57] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:28:57] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:31:45] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 12:31:45] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 14:40:36] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 14:40:36] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 14:41:37] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 14:41:37] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 14:46:41] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 14:46:41] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:04:07] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:04:07] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:07:01] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:07:01] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:07:57] PHP Warning:  file(/public_html/navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:07:57] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:08:38] PHP Warning:  file(home4/ritacccc/public_html/navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:08:38] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:08:55] PHP Warning:  file(home4/ritacccc/public_html/navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:08:55] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:10:30] PHP Parse error:  syntax error, unexpected '<' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:10:33] PHP Parse error:  syntax error, unexpected '<' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:11:16] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:11:20] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:14:00] PHP Parse error:  syntax error, unexpected '.' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:14:01] PHP Parse error:  syntax error, unexpected '.' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:14:33] PHP Parse error:  syntax error, unexpected '.' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:15:08] PHP Parse error:  syntax error, unexpected '.' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:16:35] PHP Parse error:  syntax error, unexpected '.' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:17:02] PHP Parse error:  syntax error, unexpected '.' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:17:52] PHP Parse error:  syntax error, unexpected '<' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:18:11] PHP Parse error:  syntax error, unexpected $end in /home4/ritacccc/public_html/contact/index.php on line 16
+[01-Oct-2016 17:19:29] PHP Warning:  file(../../navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:19:29] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 6
+[01-Oct-2016 17:21:24] PHP Parse error:  syntax error, unexpected '<' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:21:28] PHP Parse error:  syntax error, unexpected '<' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:21:30] PHP Parse error:  syntax error, unexpected '<' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:21:44] PHP Parse error:  syntax error, unexpected '<' in /home4/ritacccc/public_html/contact/index.php on line 11
+[01-Oct-2016 17:22:00] PHP Parse error:  syntax error, unexpected '<' in /home4/ritacccc/public_html/contact/index.php on line 10
+[01-Oct-2016 17:22:08] PHP Parse error:  syntax error, unexpected '<' in /home4/ritacccc/public_html/contact/index.php on line 10
+[01-Oct-2016 17:22:51] PHP Warning:  file(../public_html/navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:22:51] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:23:01] PHP Warning:  file(../public_html/navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:23:01] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:24:21] PHP Warning:  file(../public_html/navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:24:21] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:26:55] PHP Warning:  file(../public_html/navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:26:55] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:29:45] PHP Warning:  file(../public_html/navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:29:45] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:31:24] PHP Warning:  file(../public_html/navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/contact/index.php on line 5
+[01-Oct-2016 17:31:24] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/contact/index.php on line 5

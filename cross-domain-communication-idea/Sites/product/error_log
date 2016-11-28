@@ -1,0 +1,121 @@
+[01-Oct-2016 17:04:13] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:04:13] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:04:13] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:04:13] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:06:54] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:06:54] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:06:54] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:06:54] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:08:45] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:08:45] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:08:45] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:08:45] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:15:10] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:15:10] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:15:10] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:15:10] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:16:59] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:16:59] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:16:59] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:16:59] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:23:03] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:23:03] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:23:03] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:23:03] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:24:05] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:24:05] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:24:05] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:24:05] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:23] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:23] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:23] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:23] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:25] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:25] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:25] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:25] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:27] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:27] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:27] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:27] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:43] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:43] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:43] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:43] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:45] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:45] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:45] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:45] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:49] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:49] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:49] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:49] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:50] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:50] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:25:50] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:25:50] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:26:12] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:26:12] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:26:12] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:26:12] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:26:13] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:26:13] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:26:13] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:26:13] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:26:50] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:26:50] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:26:50] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:26:50] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:28:22] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:28:22] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:28:22] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:28:22] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:28:23] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:28:23] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:28:23] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:28:23] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:29:29] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:29:29] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:29:29] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:29:29] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:29:32] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:29:32] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:29:32] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:29:32] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:34:32] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:34:32] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:34:32] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:34:32] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:35:54] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:35:54] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:35:54] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:35:54] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:35:56] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:35:56] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:35:56] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:35:56] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:37:45] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:37:45] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:37:45] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:37:45] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:37:49] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:37:49] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:37:49] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:37:49] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:40:08] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:40:08] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:40:08] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:40:08] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:41:13] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:41:13] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 4
+[01-Oct-2016 17:41:13] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:41:13] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 43
+[01-Oct-2016 17:42:16] PHP Parse error:  syntax error, unexpected '}' in /home4/ritacccc/public_html/product/index.php on line 6
+[01-Oct-2016 17:42:43] PHP Parse error:  syntax error, unexpected '}' in /home4/ritacccc/public_html/product/index.php on line 6
+[01-Oct-2016 17:42:45] PHP Parse error:  syntax error, unexpected '}' in /home4/ritacccc/public_html/product/index.php on line 6
+[01-Oct-2016 17:43:17] PHP Warning:  file(navigator.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/index.php on line 35
+[01-Oct-2016 17:43:17] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/index.php on line 35
+[01-Oct-2016 17:44:18] PHP Parse error:  syntax error, unexpected '}' in /home4/ritacccc/public_html/product/index.php on line 40
+[01-Oct-2016 17:44:21] PHP Parse error:  syntax error, unexpected '}' in /home4/ritacccc/public_html/product/index.php on line 40
+[01-Oct-2016 17:44:26] PHP Parse error:  syntax error, unexpected '}' in /home4/ritacccc/public_html/product/index.php on line 40
+[01-Oct-2016 17:45:14] PHP Parse error:  syntax error, unexpected '}' in /home4/ritacccc/public_html/product/index.php on line 40

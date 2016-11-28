@@ -1,0 +1,5 @@
+index.php HOME
+news.php NEWS
+     product.php PRODUCT
+about.php ABOUT
+contact.php CONTACT

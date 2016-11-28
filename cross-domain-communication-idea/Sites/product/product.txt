@@ -1,0 +1,4 @@
+index PRODUCT
+skincare SKINCARE 
+makeup MAKEUP 
+skincaretools TOOLS 

@@ -1,0 +1,6 @@
+[05-Oct-2016 16:32:47] PHP Warning:  file(product.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/skincare/index.php on line 32
+[05-Oct-2016 16:32:47] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/skincare/index.php on line 32
+[05-Oct-2016 16:33:37] PHP Warning:  file(product.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/skincare/index.php on line 32
+[05-Oct-2016 16:33:37] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/skincare/index.php on line 32
+[05-Oct-2016 16:34:26] PHP Warning:  file(product.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home4/ritacccc/public_html/product/skincare/index.php on line 32
+[05-Oct-2016 16:34:26] PHP Warning:  Invalid argument supplied for foreach() in /home4/ritacccc/public_html/product/skincare/index.php on line 32

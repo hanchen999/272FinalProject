@@ -1,0 +1,8 @@
+Name: Mengxuan Cai
+SID : 011494444
+Phone: 626-321-1817
+Email: mengxuan.cai@sjsu.edu
+Class: CMPE 272
+LAB Name: Create your first Web Application
+LAB Num: #3
+ADDRESS: 1269 Lakeside Dr Apt 3102, Sunnyvale, CA 94085
